@@ -71,8 +71,7 @@ export const Message = ({
     config: { mass: 1, tension: 185, friction: 26 },
     from: {
       opacity: 1,
-      height: 0,
-      transform: `translateY(${isFromTop ? "-100%" : 0}) scale(1)`
+      height: 0
     },
     enter: () => (next: any) =>
       next({
